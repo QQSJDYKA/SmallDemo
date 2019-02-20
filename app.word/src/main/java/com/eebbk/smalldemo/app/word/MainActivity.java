@@ -32,14 +32,14 @@ public class MainActivity extends Activity {
         findViewById(R.id.button_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Small.openUri("main/main2", MainActivity.this);
+                Small.openUri("main", MainActivity.this);
             }
         });
         findViewById(R.id.button_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 final OkHttpClient httpClient = new OkHttpClient();
-                final Request request = new Request.Builder()
+                Request request = new Request.Builder()
                         .url("https://github.com/QQSJDYKA/SmallDemo/raw/master/update/bundle.json")
                         .method("GET", null)
                         .build();

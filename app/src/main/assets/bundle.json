@@ -11,6 +11,10 @@
     {
       "uri": "word",
       "pkg": "com.eebbk.smalldemo.app.word"
+    },
+    {
+      "uri": "lib.common",
+      "pkg": "com.eebbk.smalldemo.lib.common"
     }
   ]
 }
