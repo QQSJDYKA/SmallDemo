@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'net.wequick.small'
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
+        classpath 'net.wequick.tools.build:gradle-small:1.5.0-beta2'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+small {
+
+    // Whether build all the bundles to host assets.
+    buildToAssets = false
+    // The compiling `net.wequick.small:small` aar version.
+    aarVersion = "1.5.0-beta2"
+    // The project-wide Android version configurations
+    strictSplitResources = false
+    android {
+        compileSdkVersion = 27
+        buildToolsVersion = "25.0.2"
+        supportVersion = "25.1.0"
+    }
+
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

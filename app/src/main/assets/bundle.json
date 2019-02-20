@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.eebbk.smalldemo.app.main",
+      "rules": {
+        "main2": ".Main2"
+      }
+    },
+    {
+      "uri": "word",
+      "pkg": "com.eebbk.smalldemo.app.word"
+    }
+  ]
+}
