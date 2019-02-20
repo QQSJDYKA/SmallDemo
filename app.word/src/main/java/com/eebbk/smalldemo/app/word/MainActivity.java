@@ -15,7 +15,13 @@ public class MainActivity extends Activity {
         findViewById(R.id.button_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Small.openUri("main/main2", MainActivity.this);
+                Small.openUri("main", MainActivity.this);
+            }
+        });
+        findViewById(R.id.button_2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
             }
         });
     }

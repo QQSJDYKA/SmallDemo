@@ -1,0 +1,24 @@
+{
+  "manifest": {
+    "version": "1.0.0",
+    "bundles": [
+      {
+        "uri": "main",
+        "pkg": "com.eebbk.smalldemo.app.main",
+        "rules": {
+          "main2": ".Main2"
+        }
+      },
+      {
+        "uri": "word",
+        "pkg": "com.eebbk.smalldemo.app.word"
+      }
+    ]
+  },
+  "updates": [
+    {
+      "pkg": "com.eebbk.smalldemo.app.word",
+      "url": "https://github.com/QQSJDYKA/SmallDemo/update/libcom_eebbk_smalldemo_app_word.so"
+    }
+  ]
+}
