@@ -18,7 +18,7 @@
   "updates": [
     {
       "pkg": "com.eebbk.smalldemo.app.word",
-      "url": "https://github.com/QQSJDYKA/SmallDemo/update/libcom_eebbk_smalldemo_app_word.so"
+      "url": "https://github.com/QQSJDYKA/SmallDemo/raw/master/update/libcom_eebbk_smalldemo_app_word.so"
     }
   ]
 }
