@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Small.openUri("main/main2", MainActivity.this);
+                Small.openUri("mine", MainActivity.this);
             }
         });
         findViewById(R.id.button_2).setOnClickListener(new View.OnClickListener() {
@@ -55,8 +55,6 @@ public class MainActivity extends Activity {
 
                     @Override
                     public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-                        Gson gson = new Gson();
-
                         try {
                             JSONObject bundleJson = new JSONObject(response.body().string());
                             JSONObject manifest = bundleJson.optJSONObject("manifest");

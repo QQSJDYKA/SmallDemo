@@ -13,6 +13,10 @@
       "pkg": "com.eebbk.smalldemo.app.word"
     },
     {
+      "uri": "mine",
+      "pkg": "com.eebbk.smalldemo.app.mine"
+    },
+    {
       "uri": "lib.common",
       "pkg": "com.eebbk.smalldemo.lib.common"
     }
